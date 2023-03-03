@@ -8,8 +8,13 @@ namespace RoomBookingAppCore
 {
     public class RoomBookingRequestProcessor
     {
-        public void Should_Return_Room_Booking_Request()
+        public RoomBookingRequestProcessor()
         {
+        }
+
+        internal RoomBookingResult BookRoom(RoomBookingRequest bookingRequest)
+        {
+            throw new NotImplementedException();
         }
     }
 }
